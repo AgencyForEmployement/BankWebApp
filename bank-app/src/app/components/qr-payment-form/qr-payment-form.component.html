@@ -1,0 +1,50 @@
+<div>
+    <mat-card class="payment-card">
+        <mat-card-header class="card-header">
+            <mat-card-title class="mat-headline-3">
+                Your payment
+            </mat-card-title>
+        </mat-card-header>
+        <form [formGroup]="paymentForm">
+            <mat-card-content >
+                <div class="row">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Receiver</mat-label>
+                        <input formControlName="receiver" matInput>
+                    </mat-form-field>
+                </div>
+                <div class="row">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Account</mat-label>
+                        <input formControlName="account" matInput>
+                    </mat-form-field>
+                </div>
+                <div class="row">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Model and call</mat-label>
+                        <input formControlName="modelAndCall" matInput>
+                    </mat-form-field>
+                </div>
+                <div class="row">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Client</mat-label>
+                        <input formControlName="client" matInput>
+                    </mat-form-field>
+                </div>
+                <div class="row">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Price</mat-label>
+                        <input formControlName="price" matInput>
+                    </mat-form-field>
+                </div>
+                <div class="row">
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Description</mat-label>
+                        <input formControlName="description" matInput>
+                    </mat-form-field>
+                </div>
+                <button mat-raised-button class="pay-btn" (click)="pay()">Confirm payment<mat-icon>check</mat-icon></button>
+            </mat-card-content>
+        </form>
+    </mat-card>
+</div>

@@ -1,0 +1,15 @@
+
+h1 {
+    color: #eba037;
+    text-align: center;
+    text-shadow: 0px 4px 10px rgb(255, 255, 255)
+}
+
+.qrcodeshadow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(15px 15px 15px #4f90f0);
+    margin-top: 310px;
+    margin-left: 50px;
+}

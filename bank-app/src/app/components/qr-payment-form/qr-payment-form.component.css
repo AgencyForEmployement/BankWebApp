@@ -1,0 +1,24 @@
+div {
+    background-color: #6677d7;
+    height: 100%;
+}
+
+.payment-card {
+    background-color: #6677d7;
+    align-items: center;
+    box-shadow: none !important;
+    height: 100%;
+}
+
+.pay-btn {
+    margin-left: 7%;
+    margin-top: 10%;
+    color: rgb(11, 130, 11) !important;
+}
+
+mat-card-title {
+    color: beige;
+    text-align: center;
+    text-shadow: 0px 4px 10px rgba(179, 147, 211, 0.8)
+}
+
