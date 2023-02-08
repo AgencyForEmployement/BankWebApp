@@ -35,10 +35,10 @@ export class QRPaymentFormComponent implements OnInit {
         this.paymentService.payWithCreditCard(
           {
             "paymentId" : this.cookieService.get('paymentId'),
-            "pan" : '75849682465781000',
-            "securityCode" : '5555',
+            "pan" : '2222 2222 2222 2222',
+            "securityCode" : '1234',
             "cardHolderName" : 'Andrijana',
-            "dateExpiration": '02/02/2023',
+            "dateExpiration": '10/30',
             "description": this.paymentForm.controls['description'].value?.toString(),
             "amount" : this.paymentForm.controls['price'].value?.toString(),
            // "successUrl": this.cookieService.get('successUrl')?.toString(),
